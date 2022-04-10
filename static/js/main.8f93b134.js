@@ -10933,11 +10933,11 @@
       },
       576: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "../static/media/pikachu.176efa059e6c05942f55.gif";
+        e.exports = n.p + "../../static/media/pikachu.176efa059e6c05942f55.gif";
       },
       402: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "../static/media/pokedex.7ded5dbc26f74c97960f.png";
+        e.exports = n.p + "../../static/media/pokedex.7ded5dbc26f74c97960f.png";
       },
       349: function (e) {
         "use strict";
