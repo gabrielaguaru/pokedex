@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 3rem;
+    min-height: calc(100vh - 346px);
+    padding: 0% 15%;
+}
+
+section {
+    box-shadow: none !important;
+}
+
+button {
+    display: none;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.search img {
+    height: 24px;
+    cursor: pointer;
+}
+
+.search img:hover {
+    animation: search 1s infinite alternate;
+}
+
+@keyframes search {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(40deg);
+    }
+}
+
+section input {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border-radius: 40px;
+    background-color: rgb(224, 224, 224);
+    border: none;
+    color: darkblue;
+}
+
+section input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(165, 165, 165);
+    letter-spacing: 1px;
+    padding-left: .5rem;
+}
+
+.tilt {
+    box-shadow: rgba(0, 0, 0, .5) 0px 7px 42px !important;
+    border-radius: 30px !important;
+    padding: 8px !important;
+    width: 78%!important;
+    margin: auto !important;
+}
+
+
+
+div.background {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 230px;
+    min-width: 217px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.background img{
+    height: 100px;
+    width: auto;
+    
+}
+
+.pokemon-card {
+    width: 100%;
+}
+
+.pokemon-card.Ice .background img {
+    height: 180px;
+}
+
+.pokemon-card.Fire .background img{
+    height: 150px;
+}
+
+.description {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.pokemon-card.Ice div.description {
+    background-color: #71b2bb;
+}
+
+.pokemon-card.Fire div.description {
+    background-color: #b36159;
+}
+
+.pokemon-card.Grass div.description {
+    background-color: #229e22;
+}
+
+.pokemon-card.Psychic div.description {
+    background-color: #164b4b;
+}
+
+.pokemon-card.Water div.description {
+    background-color: #3e78da;
+}
+
+.pokemon-card.Bug div.description {
+    background-color: #676f36;
+}
+
+.pokemon-card.Electric div.description {
+    background-color: #ecb22f;
+}
+
+.pokemon-card.Ghost div.description {
+    background-color: #573eb9;
+}
+
+.pokemon-card.Fighting div.description {
+    background-color: #ad8463;
+}
+
+.pokemon-card.Rock div.description {
+    background-color: #627b83;
+}
+
+.pokemon-card.Normal div.description {
+    background-color: #d07e65;
+}
+
+.pokemon-card.Normal .tilt {
+    background-color: #d07e65 !important;
+}
+
+.pokemon-card.Rock .tilt {
+    background-color: #627b83 !important;
+}
+
+.pokemon-card.Fighting .tilt {
+    background-color: #ad8463 !important;
+}
+
+.pokemon-card.Ghost .tilt {
+    background-color: #573eb9 !important;
+}
+
+.pokemon-card.Ice .tilt {
+    background-color: #71b2bb !important;
+}
+
+.pokemon-card.Fire .tilt {
+    background-color: #b36159 !important;
+}
+
+.pokemon-card.Grass .tilt {
+    background-color: #229e22 !important;
+}
+
+.pokemon-card.Psychic .tilt {
+    background-color: #164b4b !important;
+}
+
+.pokemon-card.Water .tilt {
+    background-color: #3e78da !important;
+}
+
+.pokemon-card.Bug .tilt {
+    background-color: #676f36 !important;
+}
+
+.pokemon-card.Electric .tilt {
+    background-color: #ecb22f !important;
+}
+
+
+
+div.description p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+div.description .name {
+    font-size: 1.5rem;
+}
+
+div.description .category {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 1340px) {
+    main {
+        padding: 0 1%;
+       
+    }
+}
+
+@media (max-width: 950px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 650px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}

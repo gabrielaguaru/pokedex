@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23cae061.css",
+    "main.js": "/static/js/main.8f93b134.js",
+    "static/media/pokedex.png": "/static/media/pokedex.7ded5dbc26f74c97960f.png",
+    "static/media/pikachu.gif": "/static/media/pikachu.176efa059e6c05942f55.gif",
+    "index.html": "/index.html",
+    "main.23cae061.css.map": "/static/css/main.23cae061.css.map",
+    "main.8f93b134.js.map": "/static/js/main.8f93b134.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23cae061.css",
+    "static/js/main.8f93b134.js"
+  ]
+}
